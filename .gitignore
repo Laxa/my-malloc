@@ -1,3 +1,4 @@
 *.so
 *.o
 gittoken
+a.out
