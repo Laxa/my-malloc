@@ -5,21 +5,22 @@
 ## Login   <egloff_j@etna-alternance.net>
 ## 
 ## Started on  Thu Oct 22 17:54:58 2015 EGLOFF Julien
-## Last update Wed Nov 11 21:18:39 2015 EGLOFF Julien
+## Last update Thu Nov 12 21:27:21 2015 EGLOFF Julien
 ##
 
-CC		= gcc
+CC		= 	gcc
 
-NAME		= libmy_malloc_`uname`.so
-SYMLINKNAME	= libmy_malloc.so
+NAME		= 	libmy_malloc_`uname`.so
+SYMLINKNAME	= 	libmy_malloc.so
 
-SRC		= my_malloc.c
+SRC		= 	my_malloc_utils.c	\
+			my_malloc.c
 
-OBJ		= $(SRC:%.c=%.o)
+OBJ		= 	$(SRC:%.c=%.o)
 
-RM		= rm -f
+RM		= 	rm -f
 
-CFLAGS		= -W -Wall -g #-Werror
+CFLAGS		= 	-W -Wall -Werror
 
 
 .PHONY:			all dynamic_malloc clean fclean re test
@@ -30,11 +31,6 @@ all:			dynamic_malloc
 dynamic_malloc:
 			$(CC) -c $(CFLAGS) -I. -fpic $(SRC)
 			$(CC) -shared -o $(NAME) $(OBJ)
-			ln -fs $(NAME) $(SYMLINKNAME)
-
-test:
-			$(CC) -c $(CFLAGS) -I. -fpic malloc.c
-			$(CC) -shared -o $(NAME) malloc.o
 			ln -fs $(NAME) $(SYMLINKNAME)
 
 clean:
