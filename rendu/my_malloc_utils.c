@@ -2,7 +2,7 @@
 ** my_malloc_utils.c for my_malloc in /home/laxa/Rendu/egloff_j
 ** 
 ** Made by EGLOFF Julien
-** Login   <egloff_j@etna-alternance.net>
+** Login   <laxa>
 ** 
 ** Started on  Thu Nov 12 21:25:12 2015 EGLOFF Julien
 ** Last update Thu Nov 12 21:34:13 2015 EGLOFF Julien

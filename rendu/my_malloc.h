@@ -2,7 +2,7 @@
 ** my_malloc.h for my_malloc in /home/laxa/Documents/my_malloc
 ** 
 ** Made by EGLOFF Julien
-** Login   <egloff_j@etna-alternance.net>
+** Login   <laxa>
 ** 
 ** Started on  Thu Oct 22 17:55:06 2015 EGLOFF Julien
 ** Last update Thu Nov 12 21:34:06 2015 EGLOFF Julien

@@ -2,7 +2,7 @@
 ** test.c for my_malloc in /home/laxa/Documents/my_malloc
 ** 
 ** Made by EGLOFF Julien
-** Login   <egloff_j@etna-alternance.net>
+** Login   <laxa>
 ** 
 ** Started on  Thu Oct 22 17:54:35 2015 EGLOFF Julien
 ** Last update Thu Oct 22 17:54:37 2015 EGLOFF Julien

@@ -1,1 +1,1 @@
-# my_malloc is a school project for ETNA
+# my_malloc is a school project

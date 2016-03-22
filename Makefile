@@ -2,7 +2,7 @@
 ## Makefile for my_malloc in /home/laxa/Documents/my_malloc
 ## 
 ## Made by EGLOFF Julien
-## Login   <egloff_j@etna-alternance.net>
+## Login   <laxa>
 ## 
 ## Started on  Thu Oct 22 17:54:58 2015 EGLOFF Julien
 ## Last update Wed Nov 11 21:18:39 2015 EGLOFF Julien
